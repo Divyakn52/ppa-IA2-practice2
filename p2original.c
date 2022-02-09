@@ -32,7 +32,7 @@ int main()
   a=input_side();
   b=input_side();
   c+input_side();
-  is scalene=check_scalene
-  output(a,b,c,is scalene);
+  isscalene=check_scalene(a,b,c);
+  output(a,b,c,isscalene);
   return 0;
 }
